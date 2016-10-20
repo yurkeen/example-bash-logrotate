@@ -3,7 +3,7 @@ Example bash script for logs rotation/archivation.
 
 ## how to use
 
-Usage: ./logrotate.sh <options>
+```Usage: ./logrotate.sh <options>
 Available options:
   --name="<search pattern>"
           Names for the files to rotate. Could be '*.log' or a regular expression.
@@ -14,5 +14,5 @@ Available options:
   --older-than=[days]
           Number of days to keep files. Files older days than this number will be deleted. When not specified, keep forever.
   --check
-          If set, do not perform actual actions, rather show what would be done.
+          If set, do not perform actual actions, rather show what would be done.```
 
